@@ -1,11 +1,10 @@
-# 📘 Keywords and Substring Check
+ === Logical Operators ===
+# OR -> true if at least one condition is true
+print(2 > 3 or 2 > 1)
 
-## 1. Keywords in Python
-- In English we have words like **apple, banana**.  
-- In Python we have reserved words (keywords) like **print, input, if, else**.  
-- These are predefined and **cannot** be used as variable names.
+# AND -> true only if both conditions are true
+print(3 > 2 and 2 > 1)
 
-Example ❌:
-```python
-print = "hello"   # wrong, because print is a keyword
+# NOT -> reverses the condition
+print(not 2 > 3)
 
