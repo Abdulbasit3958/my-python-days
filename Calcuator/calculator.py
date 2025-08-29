@@ -16,4 +16,4 @@ elif operator == "/":
 elif operator == "%":
     print(first%second)
 else:
-    print("invalid operator")
+    print("invalid operator") 
